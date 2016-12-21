@@ -1,0 +1,41 @@
+{
+  "buildFiles": [
+    "/Users/YoungHoonKim/AndroidStudioProjects/Vuforia2/app/src/main/jni/Android.mk",
+    "/Users/YoungHoonKim/AndroidStudioProjects/Vuforia2/app/src/main/jni/Application.mk"
+  ],
+  "cleanCommands": [
+    "/Users/YoungHoonKim/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/YoungHoonKim/AndroidStudioProjects/Vuforia2/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/YoungHoonKim/AndroidStudioProjects/Vuforia2/app/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/YoungHoonKim/AndroidStudioProjects/Vuforia2/app/.externalNativeBuild/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/YoungHoonKim/AndroidStudioProjects/Vuforia2/app/build/intermediates/ndkBuild/release/lib clean"
+  ],
+  "libraries": {
+    "ImageTargets-release-x86_64": {
+      "buildCommand": "/Users/YoungHoonKim/Library/Android/sdk/ndk-bundle/ndk-build NDK_PROJECT_PATH\u003dnull APP_BUILD_SCRIPT\u003d/Users/YoungHoonKim/AndroidStudioProjects/Vuforia2/app/src/main/jni/Android.mk NDK_APPLICATION_MK\u003d/Users/YoungHoonKim/AndroidStudioProjects/Vuforia2/app/src/main/jni/Application.mk APP_ABI\u003dx86_64 NDK_ALL_ABIS\u003dx86_64 NDEBUG\u003d0 APP_PLATFORM\u003dandroid-21 NDK_OUT\u003d/Users/YoungHoonKim/AndroidStudioProjects/Vuforia2/app/.externalNativeBuild/ndkBuild/release/obj NDK_LIBS_OUT\u003d/Users/YoungHoonKim/AndroidStudioProjects/Vuforia2/app/build/intermediates/ndkBuild/release/lib /Users/YoungHoonKim/AndroidStudioProjects/Vuforia2/app/.externalNativeBuild/ndkBuild/release/obj/local/x86_64/libImageTargets.so",
+      "toolchain": "toolchain-x86_64",
+      "abi": "x86_64",
+      "artifactName": "ImageTargets",
+      "files": [
+        {
+          "src": "/Users/YoungHoonKim/AndroidStudioProjects/Vuforia2/app/src/main/jni/ImageTargets.cpp",
+          "flags": "\"-gcc-toolchain\" \"/Users/YoungHoonKim/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64\" \"-target\" \"x86_64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-I/Users/YoungHoonKim/Library/Android/sdk/ndk-bundle/sources/cxx-stl/system/include\" \"-I/Users/YoungHoonKim/AndroidStudioProjects/Vuforia2/app/src/main/jni/include\" \"-I/Users/YoungHoonKim/AndroidStudioProjects/Vuforia2/app/src/main/jni\" \"-DANDROID\" \"-Wno-write-strings\" \"-DUSE_OPENGL_ES_2_0\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/Users/YoungHoonKim/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include\""
+        },
+        {
+          "src": "/Users/YoungHoonKim/AndroidStudioProjects/Vuforia2/app/src/main/jni/SampleUtils.cpp",
+          "flags": "\"-gcc-toolchain\" \"/Users/YoungHoonKim/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64\" \"-target\" \"x86_64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-I/Users/YoungHoonKim/Library/Android/sdk/ndk-bundle/sources/cxx-stl/system/include\" \"-I/Users/YoungHoonKim/AndroidStudioProjects/Vuforia2/app/src/main/jni/include\" \"-I/Users/YoungHoonKim/AndroidStudioProjects/Vuforia2/app/src/main/jni\" \"-DANDROID\" \"-Wno-write-strings\" \"-DUSE_OPENGL_ES_2_0\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/Users/YoungHoonKim/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include\""
+        },
+        {
+          "src": "/Users/YoungHoonKim/AndroidStudioProjects/Vuforia2/app/src/main/jni/Texture.cpp",
+          "flags": "\"-gcc-toolchain\" \"/Users/YoungHoonKim/Library/Android/sdk/ndk-bundle/toolchains/x86_64-4.9/prebuilt/darwin-x86_64\" \"-target\" \"x86_64-none-linux-android\" \"-ffunction-sections\" \"-funwind-tables\" \"-fstack-protector-strong\" \"-fPIC\" \"-Wno-invalid-command-line-argument\" \"-Wno-unused-command-line-argument\" \"-no-canonical-prefixes\" \"-g\" \"-fno-exceptions\" \"-fno-rtti\" \"-O2\" \"-DNDEBUG\" \"-I/Users/YoungHoonKim/Library/Android/sdk/ndk-bundle/sources/cxx-stl/system/include\" \"-I/Users/YoungHoonKim/AndroidStudioProjects/Vuforia2/app/src/main/jni/include\" \"-I/Users/YoungHoonKim/AndroidStudioProjects/Vuforia2/app/src/main/jni\" \"-DANDROID\" \"-Wno-write-strings\" \"-DUSE_OPENGL_ES_2_0\" \"-Wa,--noexecstack\" \"-Wformat\" \"-Werror\u003dformat-security\" \"-isystem\" \"/Users/YoungHoonKim/Library/Android/sdk/ndk-bundle/platforms/android-21/arch-x86_64/usr/include\""
+        }
+      ],
+      "output": "/Users/YoungHoonKim/AndroidStudioProjects/Vuforia2/app/.externalNativeBuild/ndkBuild/release/obj/local/x86_64/libImageTargets.so"
+    }
+  },
+  "toolchains": {
+    "toolchain-x86_64": {
+      "cppCompilerExecutable": "/Users/YoungHoonKim/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++"
+    }
+  },
+  "cFileExtensions": [],
+  "cppFileExtensions": [
+    "cpp"
+  ]
+}
